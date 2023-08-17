@@ -1,5 +1,5 @@
 beforeEach(() => {
-// reset testu před každým spuštěním
+// reset testu před každým spuštěním - 
   cy.request('POST', '/api/reset')
 
 });
