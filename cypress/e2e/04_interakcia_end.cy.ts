@@ -2,11 +2,9 @@ it('vytvorenie karty', () => {
 
   cy.visit('/')
 
-  cy.get('[data-cy="create-board"]')
+  cy.get('[data-cy="first-board"]')
     .click()
-
-  cy.get('[data-cy="new-board-input"]')
-    .type('new board{enter}')
+    .type('new board{enter}');
 
   cy.get('[data-cy="add-list-input"]')
     .type('new list')

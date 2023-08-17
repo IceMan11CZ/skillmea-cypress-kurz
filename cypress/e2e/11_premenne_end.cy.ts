@@ -5,6 +5,7 @@ beforeEach(() => {
 
   cy.get('[data-cy=board-item]')
     .invoke('text')
+    //alias
     .as('boardName')
 
 })

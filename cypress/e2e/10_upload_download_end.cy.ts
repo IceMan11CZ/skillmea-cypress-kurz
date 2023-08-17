@@ -8,6 +8,7 @@ it('upload a download', () => {
   cy.contains('Download')
     .click()
 
+  // ověření, že došlo ke stažení souboru
   cy.readFile('cypress/downloads/skillmea_logo.svg')
 
 })

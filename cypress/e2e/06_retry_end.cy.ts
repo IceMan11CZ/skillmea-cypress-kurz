@@ -6,7 +6,7 @@ it('retry', { defaultCommandTimeout: 10000 }, () => {
   // queries
   cy.get('[data-cy=card]')
     .eq(2)
-    .should('contain.text', 'milk') // overovania
+    .should('contain.text', 'juice') // overovania
 
   cy.get('[data-cy=due-date]')
     .eq(2)
