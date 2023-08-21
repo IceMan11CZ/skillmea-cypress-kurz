@@ -41,6 +41,6 @@ it('prihlasenie', () => {
   cy.visit('/')
 
   cy.get('[data-cy=board-item]')
-    .should('have.length', 2)
+    .should('have.length', 8)
 
 });
